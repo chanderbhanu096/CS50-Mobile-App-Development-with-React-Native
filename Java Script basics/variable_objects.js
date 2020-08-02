@@ -11,4 +11,23 @@ console.log(booleanvariable)
 console.log("10") //how to print nimber as a string
 
 // type casting 
-console.log(numbervariable+"") // converting from number to string 
+console.log(numbervariable+"") // O/P = String //Implicit Casting-depending on the compiler behaviour converting from number to string 
+//    OR
+const explicit = String(x)  // o/p = String // explicit casting 
+
+// method for checking the data type of
+ console.log(typeof(numbervariable))  //O/P number
+
+ typeof(null)  // equals to null
+
+ /* Falsy Values 
+    0
+    null
+    Nan
+    undefined
+    false
+
+    Truthy Values
+    {}
+    []
+    every other values is truthy
